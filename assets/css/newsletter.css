@@ -1,0 +1,31 @@
+.newsletter-box {
+  padding: 50px;
+  background: var(--light-gray);
+  border-radius: var(--radius-m);
+}
+
+.input-field {
+  width: 100%;
+  border: none;
+  padding: 15px 30px;
+  border-radius: var(--radius-m);
+}
+
+.input-checkbox__label {
+  font-size: 0.75rem;
+}
+
+@media (max-width: 489px) {
+  .newsletter-box {
+    padding: 50px 20px;
+  }
+
+  .newsletter-box .row {
+    row-gap: 1rem;
+  }
+
+  .newsletter-box .col,
+  .newsletter-box .btn {
+    width: 100%;
+  }
+}

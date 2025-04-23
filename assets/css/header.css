@@ -1,0 +1,162 @@
+/* top bar */
+.top-bar {
+  text-align: center;
+  font-size: var(--font-size-s);
+  padding: 10px;
+  background: var(--accent);
+  color: var(--secondary-color);
+  font-weight: var(--font-bold);
+}
+
+/* Header top */
+#header {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  padding: 2rem 1rem;
+}
+
+.header-top--column-left {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.logo-mobile {
+  display: none;
+}
+
+.search-form__container {
+  width: 75%;
+  position: relative;
+}
+
+.search-form {
+  width: 90%;
+  position: relative;
+}
+
+.search-form input {
+  width: 100%;
+  border: none;
+  padding: 10px 15px;
+  border: 1px solid #dddddd;
+  border-radius: var(--radius-m);
+}
+
+#search-form__submit {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.search-result__message {
+  display: none;
+  position: absolute;
+  margin-top: 5px;
+}
+
+.search-form input:focus-visible {
+  outline: none;
+}
+
+.header-top--column-right {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.user {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.user-mobile {
+  display: none;
+}
+
+.user p {
+  font-size: var(--font-size-s);
+  line-height: 1;
+}
+
+.user:hover p {
+  color: var(--accent);
+}
+
+.cart {
+  position: relative;
+  cursor: pointer;
+}
+
+.cart__counter {
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  background-color: var(--accent);
+  color: var(--secondary-color);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+@media (max-width: 1000px) {
+  #header {
+    padding: 1rem;
+  }
+
+  #header .row {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
+  .header-top--column-left {
+    order: 2;
+  }
+
+  .header-top--column-left,
+  .header-top--column-right,
+  .search-form__container,
+  .search-form {
+    width: 100%;
+  }
+
+  .header-top--column-right {
+    justify-content: space-between;
+  }
+
+  .logo-desktop,
+  .user {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: block;
+  }
+
+  .user-mobile {
+    width: 100%;
+    display: flex;
+    margin-bottom: 2rem;
+  }
+
+  .search-result__message {
+    position: initial;
+    font-size: 1rem;
+  }
+}

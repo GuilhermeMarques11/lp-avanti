@@ -1,0 +1,75 @@
+.footer__top {
+  background: #f5f5f5;
+}
+
+.footer__social .row {
+  gap: 20px;
+}
+
+.accordion-title {
+  margin-bottom: 1rem;
+}
+
+.footer__payment-methods {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+@media (max-width: 489px) {
+  .footer__top .row {
+    row-gap: 0;
+  }
+
+  .footer .col {
+    padding-bottom: 1rem;
+  }
+
+  .footer__social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__social .row {
+    align-items: center;
+  }
+
+  .accordion {
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .accordion-title {
+    padding: 1rem 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .accordion-title::after {
+    content: '\f078';
+    font-family: 'Font Awesome 5 Free';
+    color: var(--accent);
+  }
+
+  .accordion-title.active::after {
+    transform: rotate(180deg);
+  }
+
+  .accordion-content {
+    display: none;
+  }
+
+  .accordion-content.active {
+    display: block;
+  }
+
+  .footer__payment-methods {
+    flex-wrap: wrap;
+  }
+
+  .footer__payment-methods .col {
+    width: 70px;
+  }
+}

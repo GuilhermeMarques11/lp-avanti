@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/images/favicon-avanti.png" type="image/png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <title>LP Avanti</title>
+</head>
+
+<body>
+  <div class="top-bar">
+    <p>Ganhe <span style="background-color: #6220C1; border-radius: 4px;">R$10,00</span> de desconto no seu primeiro pedido. Utilize o cupom <span style="font-style: italic;font-weight: 400;">DESCONTO10</span></p>
+  </div>
+
+  <header id="header" class="container">
+    <div class="row full-width justify-content-between">
+      <div class="header-top--column-left">
+        <div class="logo logo-desktop">
+          <a class="row center" href="/">
+            <img src="assets/images/logo-avanti.png" alt="Logo Avanti">
+          </a>
+        </div>
+        <div class="search-form__container">
+          <div class="search-form">
+            <input id="search-input" type="text" placeholder="Digite aqui o que você procura">
+            <img id="search-form__submit" src="assets/images/lupa.svg" alt="Lupa">
+          </div>
+          <p class="search-result__message">"Você buscou por: <span id="search-result"></span>"</p>
+        </div>
+      </div>
+      <div class="header-top--column-right">
+        <div class="menu-mobile__icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="logo logo-mobile">
+          <a class="row center" href="/">
+            <img src="assets/images/logo-avanti.png" alt="Logo Avanti">
+          </a>
+        </div>
+        <div class="user">
+          <img src="assets/images/user.svg" alt="User">
+          <p>Olá, Nome cliente!</p>
+        </div>
+        <div class="cart">
+          <img src="assets/images/cart.svg" alt="Cart">
+          <p class="cart__counter radius-50">2</p>
+        </div>
+      </div>
+    </div>
+    <div class="header__bottom menu-mobile">
+      <nav class="menu-container">
+        <div class="user user-mobile">
+          <img src="assets/images/user.svg" alt="User">
+          <p>Olá, Nome cliente!</p>
+        </div>
+        <ul id="menu">
+          <li id="menu-item__categorias" class="menu-item main-menu__item">
+            <i class="fa-solid fa-bars hide-on-mobile"></i>
+            <a>Todas as Categorias</a>
+            <div class="megamenu megamenu__has-dropdown full-width">
+              <div class="megamenu__col-left">
+                <div class="megamenu__dropdown-container">
+                  <ul>
+                    <li class="megamenu__dropdown active" data-menu="menu-1">Departamento</li>
+                    <li class="megamenu__dropdown" data-menu="menu-2">Departamento</li>
+                    <li class="megamenu__dropdown" data-menu="menu-3">Departamento</li>
+                    <li class="megamenu__dropdown" data-menu="menu-4">Departamento</li>
+                    <li class="megamenu__dropdown" data-menu="menu-5">Departamento</li>
+                    <li class="megamenu__dropdown" data-menu="menu-6">Departamento</li>
+                    <li class="megamenu__dropdown" data-menu="menu-7">Departamento</li>
+                    <li class="megamenu__dropdown" data-menu="menu-8">Departamento</li>
+                    <li class="megamenu__dropdown" data-menu="menu-9">Departamento</li>
+                    <li class="megamenu__dropdown" data-menu="menu-10">Departamento</li>
+                    <li class="megamenu__dropdown" data-menu="menu-11">Departamento</li>
+                    <li class="megamenu__dropdown" data-menu="menu-12">Departamento</li>
+                    <li class="megamenu__dropdown" data-menu="menu-13">Departamento</li>
+                    <li class="megamenu__dropdown" data-menu="menu-14">Departamento</li>
+                    <li class="megamenu__dropdown" data-menu="menu-15">Departamento</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="megamenu__col-right">
+                <div class="col col-6">
+                  <div id="menu-1" class="megamenu__dropdown-content active">
+                    <ul class="">
+                      <li><a href="">Categoria 1</a></li>
+                      <li><a href="">Categoria 1</a></li>
+                      <li><a href="">Categoria 1</a></li>
+                      <li><a href="">Categoria 1</a></li>
+                      <li><a href="">Categoria 1</a></li>
+                      <li><a href="">Categoria 1</a></li>
+                      <li><a href="">Categoria 1</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 1</a></li>
+                      <li><a href="">Categoria 1</a></li>
+                      <li><a href="">Categoria 1</a></li>
+                      <li><a href="">Categoria 1</a></li>
+                      <li><a href="">Categoria 1</a></li>
+                      <li><a href="">Categoria 1</a></li>
+                      <li><a href="">Categoria 1</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 1</a></li>
+                      <li><a href="">Categoria 1</a></li>
+                      <li><a href="">Categoria 1</a></li>
+                      <li><a href="">Categoria 1</a></li>
+                      <li><a href="">Categoria 1</a></li>
+                      <li><a href="">Categoria 1</a></li>
+                      <li><a href="">Categoria 1</a></li>
+                    </ul>
+                  </div>
+                  <div id="menu-2" class="megamenu__dropdown-content">
+                    <ul class="">
+                      <li><a href="">Categoria 2</a></li>
+                      <li><a href="">Categoria 2</a></li>
+                      <li><a href="">Categoria 2</a></li>
+                      <li><a href="">Categoria 2</a></li>
+                      <li><a href="">Categoria 2</a></li>
+                      <li><a href="">Categoria 2</a></li>
+                      <li><a href="">Categoria 2</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 2</a></li>
+                      <li><a href="">Categoria 2</a></li>
+                      <li><a href="">Categoria 2</a></li>
+                      <li><a href="">Categoria 2</a></li>
+                      <li><a href="">Categoria 2</a></li>
+                      <li><a href="">Categoria 2</a></li>
+                      <li><a href="">Categoria 2</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 2</a></li>
+                      <li><a href="">Categoria 2</a></li>
+                      <li><a href="">Categoria 2</a></li>
+                      <li><a href="">Categoria 2</a></li>
+                      <li><a href="">Categoria 2</a></li>
+                      <li><a href="">Categoria 2</a></li>
+                      <li><a href="">Categoria 2</a></li>
+                    </ul>
+                  </div>
+                  <div id="menu-3" class="megamenu__dropdown-content">
+                    <ul class="">
+                      <li><a href="">Categoria 3</a></li>
+                      <li><a href="">Categoria 3</a></li>
+                      <li><a href="">Categoria 3</a></li>
+                      <li><a href="">Categoria 3</a></li>
+                      <li><a href="">Categoria 3</a></li>
+                      <li><a href="">Categoria 3</a></li>
+                      <li><a href="">Categoria 3</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 3</a></li>
+                      <li><a href="">Categoria 3</a></li>
+                      <li><a href="">Categoria 3</a></li>
+                      <li><a href="">Categoria 3</a></li>
+                      <li><a href="">Categoria 3</a></li>
+                      <li><a href="">Categoria 3</a></li>
+                      <li><a href="">Categoria 3</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 3</a></li>
+                      <li><a href="">Categoria 3</a></li>
+                      <li><a href="">Categoria 3</a></li>
+                      <li><a href="">Categoria 3</a></li>
+                      <li><a href="">Categoria 3</a></li>
+                      <li><a href="">Categoria 3</a></li>
+                      <li><a href="">Categoria 3</a></li>
+                    </ul>
+                  </div>
+                  <div id="menu-4" class="megamenu__dropdown-content">
+                    <ul class="">
+                      <li><a href="">Categoria 4</a></li>
+                      <li><a href="">Categoria 4</a></li>
+                      <li><a href="">Categoria 4</a></li>
+                      <li><a href="">Categoria 4</a></li>
+                      <li><a href="">Categoria 4</a></li>
+                      <li><a href="">Categoria 4</a></li>
+                      <li><a href="">Categoria 4</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 4</a></li>
+                      <li><a href="">Categoria 4</a></li>
+                      <li><a href="">Categoria 4</a></li>
+                      <li><a href="">Categoria 4</a></li>
+                      <li><a href="">Categoria 4</a></li>
+                      <li><a href="">Categoria 4</a></li>
+                      <li><a href="">Categoria 4</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 4</a></li>
+                      <li><a href="">Categoria 4</a></li>
+                      <li><a href="">Categoria 4</a></li>
+                      <li><a href="">Categoria 4</a></li>
+                      <li><a href="">Categoria 4</a></li>
+                      <li><a href="">Categoria 4</a></li>
+                      <li><a href="">Categoria 4</a></li>
+                    </ul>
+                  </div>
+                  <div id="menu-5" class="megamenu__dropdown-content">
+                    <ul class="">
+                      <li><a href="">Categoria 5</a></li>
+                      <li><a href="">Categoria 5</a></li>
+                      <li><a href="">Categoria 5</a></li>
+                      <li><a href="">Categoria 5</a></li>
+                      <li><a href="">Categoria 5</a></li>
+                      <li><a href="">Categoria 5</a></li>
+                      <li><a href="">Categoria 5</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 5</a></li>
+                      <li><a href="">Categoria 5</a></li>
+                      <li><a href="">Categoria 5</a></li>
+                      <li><a href="">Categoria 5</a></li>
+                      <li><a href="">Categoria 5</a></li>
+                      <li><a href="">Categoria 5</a></li>
+                      <li><a href="">Categoria 5</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 5</a></li>
+                      <li><a href="">Categoria 5</a></li>
+                      <li><a href="">Categoria 5</a></li>
+                      <li><a href="">Categoria 5</a></li>
+                      <li><a href="">Categoria 5</a></li>
+                      <li><a href="">Categoria 5</a></li>
+                      <li><a href="">Categoria 5</a></li>
+                    </ul>
+                  </div>
+                  <div id="menu-6" class="megamenu__dropdown-content">
+                    <ul class="">
+                      <li><a href="">Categoria 6</a></li>
+                      <li><a href="">Categoria 6</a></li>
+                      <li><a href="">Categoria 6</a></li>
+                      <li><a href="">Categoria 6</a></li>
+                      <li><a href="">Categoria 6</a></li>
+                      <li><a href="">Categoria 6</a></li>
+                      <li><a href="">Categoria 6</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 6</a></li>
+                      <li><a href="">Categoria 6</a></li>
+                      <li><a href="">Categoria 6</a></li>
+                      <li><a href="">Categoria 6</a></li>
+                      <li><a href="">Categoria 6</a></li>
+                      <li><a href="">Categoria 6</a></li>
+                      <li><a href="">Categoria 6</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 6</a></li>
+                      <li><a href="">Categoria 6</a></li>
+                      <li><a href="">Categoria 6</a></li>
+                      <li><a href="">Categoria 6</a></li>
+                      <li><a href="">Categoria 6</a></li>
+                      <li><a href="">Categoria 6</a></li>
+                      <li><a href="">Categoria 6</a></li>
+                    </ul>
+                  </div>
+                  <div id="menu-7" class="megamenu__dropdown-content">
+                    <ul class="">
+                      <li><a href="">Categoria 7</a></li>
+                      <li><a href="">Categoria 7</a></li>
+                      <li><a href="">Categoria 7</a></li>
+                      <li><a href="">Categoria 7</a></li>
+                      <li><a href="">Categoria 7</a></li>
+                      <li><a href="">Categoria 7</a></li>
+                      <li><a href="">Categoria 7</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 7</a></li>
+                      <li><a href="">Categoria 7</a></li>
+                      <li><a href="">Categoria 7</a></li>
+                      <li><a href="">Categoria 7</a></li>
+                      <li><a href="">Categoria 7</a></li>
+                      <li><a href="">Categoria 7</a></li>
+                      <li><a href="">Categoria 7</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 7</a></li>
+                      <li><a href="">Categoria 7</a></li>
+                      <li><a href="">Categoria 7</a></li>
+                      <li><a href="">Categoria 7</a></li>
+                      <li><a href="">Categoria 7</a></li>
+                      <li><a href="">Categoria 7</a></li>
+                      <li><a href="">Categoria 7</a></li>
+                    </ul>
+                  </div>
+                  <div id="menu-8" class="megamenu__dropdown-content">
+                    <ul class="">
+                      <li><a href="">Categoria 8</a></li>
+                      <li><a href="">Categoria 8</a></li>
+                      <li><a href="">Categoria 8</a></li>
+                      <li><a href="">Categoria 8</a></li>
+                      <li><a href="">Categoria 8</a></li>
+                      <li><a href="">Categoria 8</a></li>
+                      <li><a href="">Categoria 8</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 8</a></li>
+                      <li><a href="">Categoria 8</a></li>
+                      <li><a href="">Categoria 8</a></li>
+                      <li><a href="">Categoria 8</a></li>
+                      <li><a href="">Categoria 8</a></li>
+                      <li><a href="">Categoria 8</a></li>
+                      <li><a href="">Categoria 8</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 8</a></li>
+                      <li><a href="">Categoria 8</a></li>
+                      <li><a href="">Categoria 8</a></li>
+                      <li><a href="">Categoria 8</a></li>
+                      <li><a href="">Categoria 8</a></li>
+                      <li><a href="">Categoria 8</a></li>
+                      <li><a href="">Categoria 8</a></li>
+                    </ul>
+                  </div>
+                  <div id="menu-9" class="megamenu__dropdown-content">
+                    <ul class="">
+                      <li><a href="">Categoria 9</a></li>
+                      <li><a href="">Categoria 9</a></li>
+                      <li><a href="">Categoria 9</a></li>
+                      <li><a href="">Categoria 9</a></li>
+                      <li><a href="">Categoria 9</a></li>
+                      <li><a href="">Categoria 9</a></li>
+                      <li><a href="">Categoria 9</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 9</a></li>
+                      <li><a href="">Categoria 9</a></li>
+                      <li><a href="">Categoria 9</a></li>
+                      <li><a href="">Categoria 9</a></li>
+                      <li><a href="">Categoria 9</a></li>
+                      <li><a href="">Categoria 9</a></li>
+                      <li><a href="">Categoria 9</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 9</a></li>
+                      <li><a href="">Categoria 9</a></li>
+                      <li><a href="">Categoria 9</a></li>
+                      <li><a href="">Categoria 9</a></li>
+                      <li><a href="">Categoria 9</a></li>
+                      <li><a href="">Categoria 9</a></li>
+                      <li><a href="">Categoria 9</a></li>
+                    </ul>
+                  </div>
+                  <div id="menu-10" class="megamenu__dropdown-content">
+                    <ul class="">
+                      <li><a href="">Categoria 10</a></li>
+                      <li><a href="">Categoria 10</a></li>
+                      <li><a href="">Categoria 10</a></li>
+                      <li><a href="">Categoria 10</a></li>
+                      <li><a href="">Categoria 10</a></li>
+                      <li><a href="">Categoria 10</a></li>
+                      <li><a href="">Categoria 10</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 10</a></li>
+                      <li><a href="">Categoria 10</a></li>
+                      <li><a href="">Categoria 10</a></li>
+                      <li><a href="">Categoria 10</a></li>
+                      <li><a href="">Categoria 10</a></li>
+                      <li><a href="">Categoria 10</a></li>
+                      <li><a href="">Categoria 10</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 10</a></li>
+                      <li><a href="">Categoria 10</a></li>
+                      <li><a href="">Categoria 10</a></li>
+                      <li><a href="">Categoria 10</a></li>
+                      <li><a href="">Categoria 10</a></li>
+                      <li><a href="">Categoria 10</a></li>
+                      <li><a href="">Categoria 10</a></li>
+                    </ul>
+                  </div>
+                  <div id="menu-11" class="megamenu__dropdown-content">
+                    <ul class="">
+                      <li><a href="">Categoria 11</a></li>
+                      <li><a href="">Categoria 11</a></li>
+                      <li><a href="">Categoria 11</a></li>
+                      <li><a href="">Categoria 11</a></li>
+                      <li><a href="">Categoria 11</a></li>
+                      <li><a href="">Categoria 11</a></li>
+                      <li><a href="">Categoria 11</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 11</a></li>
+                      <li><a href="">Categoria 11</a></li>
+                      <li><a href="">Categoria 11</a></li>
+                      <li><a href="">Categoria 11</a></li>
+                      <li><a href="">Categoria 11</a></li>
+                      <li><a href="">Categoria 11</a></li>
+                      <li><a href="">Categoria 11</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 11</a></li>
+                      <li><a href="">Categoria 11</a></li>
+                      <li><a href="">Categoria 11</a></li>
+                      <li><a href="">Categoria 11</a></li>
+                      <li><a href="">Categoria 11</a></li>
+                      <li><a href="">Categoria 11</a></li>
+                      <li><a href="">Categoria 11</a></li>
+                    </ul>
+                  </div>
+                  <div id="menu-12" class="megamenu__dropdown-content">
+                    <ul class="">
+                      <li><a href="">Categoria 12</a></li>
+                      <li><a href="">Categoria 12</a></li>
+                      <li><a href="">Categoria 12</a></li>
+                      <li><a href="">Categoria 12</a></li>
+                      <li><a href="">Categoria 12</a></li>
+                      <li><a href="">Categoria 12</a></li>
+                      <li><a href="">Categoria 12</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 12</a></li>
+                      <li><a href="">Categoria 12</a></li>
+                      <li><a href="">Categoria 12</a></li>
+                      <li><a href="">Categoria 12</a></li>
+                      <li><a href="">Categoria 12</a></li>
+                      <li><a href="">Categoria 12</a></li>
+                      <li><a href="">Categoria 12</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 12</a></li>
+                      <li><a href="">Categoria 12</a></li>
+                      <li><a href="">Categoria 12</a></li>
+                      <li><a href="">Categoria 12</a></li>
+                      <li><a href="">Categoria 12</a></li>
+                      <li><a href="">Categoria 12</a></li>
+                      <li><a href="">Categoria 12</a></li>
+                    </ul>
+                  </div>
+                  <div id="menu-13" class="megamenu__dropdown-content">
+                    <ul class="">
+                      <li><a href="">Categoria 13</a></li>
+                      <li><a href="">Categoria 13</a></li>
+                      <li><a href="">Categoria 13</a></li>
+                      <li><a href="">Categoria 13</a></li>
+                      <li><a href="">Categoria 13</a></li>
+                      <li><a href="">Categoria 13</a></li>
+                      <li><a href="">Categoria 13</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 13</a></li>
+                      <li><a href="">Categoria 13</a></li>
+                      <li><a href="">Categoria 13</a></li>
+                      <li><a href="">Categoria 13</a></li>
+                      <li><a href="">Categoria 13</a></li>
+                      <li><a href="">Categoria 13</a></li>
+                      <li><a href="">Categoria 13</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 13</a></li>
+                      <li><a href="">Categoria 13</a></li>
+                      <li><a href="">Categoria 13</a></li>
+                      <li><a href="">Categoria 13</a></li>
+                      <li><a href="">Categoria 13</a></li>
+                      <li><a href="">Categoria 13</a></li>
+                      <li><a href="">Categoria 13</a></li>
+                    </ul>
+                  </div>
+                  <div id="menu-14" class="megamenu__dropdown-content">
+                    <ul class="">
+                      <li><a href="">Categoria 14</a></li>
+                      <li><a href="">Categoria 14</a></li>
+                      <li><a href="">Categoria 14</a></li>
+                      <li><a href="">Categoria 14</a></li>
+                      <li><a href="">Categoria 14</a></li>
+                      <li><a href="">Categoria 14</a></li>
+                      <li><a href="">Categoria 14</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 14</a></li>
+                      <li><a href="">Categoria 14</a></li>
+                      <li><a href="">Categoria 14</a></li>
+                      <li><a href="">Categoria 14</a></li>
+                      <li><a href="">Categoria 14</a></li>
+                      <li><a href="">Categoria 14</a></li>
+                      <li><a href="">Categoria 14</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 14</a></li>
+                      <li><a href="">Categoria 14</a></li>
+                      <li><a href="">Categoria 14</a></li>
+                      <li><a href="">Categoria 14</a></li>
+                      <li><a href="">Categoria 14</a></li>
+                      <li><a href="">Categoria 14</a></li>
+                      <li><a href="">Categoria 14</a></li>
+                    </ul>
+                  </div>
+                  <div id="menu-15" class="megamenu__dropdown-content">
+                    <ul class="">
+                      <li><a href="">Categoria 15</a></li>
+                      <li><a href="">Categoria 15</a></li>
+                      <li><a href="">Categoria 15</a></li>
+                      <li><a href="">Categoria 15</a></li>
+                      <li><a href="">Categoria 15</a></li>
+                      <li><a href="">Categoria 15</a></li>
+                      <li><a href="">Categoria 15</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 15</a></li>
+                      <li><a href="">Categoria 15</a></li>
+                      <li><a href="">Categoria 15</a></li>
+                      <li><a href="">Categoria 15</a></li>
+                      <li><a href="">Categoria 15</a></li>
+                      <li><a href="">Categoria 15</a></li>
+                      <li><a href="">Categoria 15</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria 15</a></li>
+                      <li><a href="">Categoria 15</a></li>
+                      <li><a href="">Categoria 15</a></li>
+                      <li><a href="">Categoria 15</a></li>
+                      <li><a href="">Categoria 15</a></li>
+                      <li><a href="">Categoria 15</a></li>
+                      <li><a href="">Categoria 15</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <div class="megamenu__featured-product">
+                    <p>Confira os produtos que acabaram de chegar</p>
+                    <button>Ver todos</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li id="menu-item__categorias" class="menu-item main-menu__item">
+            <a>Departamento</a>
+            <div class="megamenu full-width">
+              <div class="megamenu__col-right">
+                <div class="col col-6">
+                  <p class="megamenu__title">Departamento</p>
+                  <div id="menu-1" class="megamenu__dropdown-content active">
+                    <ul class="">
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <div class="megamenu__featured-product">
+                    <p>Confira os produtos que acabaram de chegar</p>
+                    <button>Ver todos</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li id="menu-item__categorias" class="menu-item main-menu__item">
+            <a>Departamento</a>
+            <div class="megamenu full-width">
+              <div class="megamenu__col-right">
+                <div class="col col-6">
+                  <p class="megamenu__title">Departamento</p>
+                  <div id="menu-1" class="megamenu__dropdown-content active">
+                    <ul class="">
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <div class="megamenu__featured-product">
+                    <p>Confira os produtos que acabaram de chegar</p>
+                    <button>Ver todos</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li id="menu-item__categorias" class="menu-item main-menu__item">
+            <a>Departamento</a>
+            <div class="megamenu full-width">
+              <div class="megamenu__col-right">
+                <div class="col col-6">
+                  <p class="megamenu__title">Departamento</p>
+                  <div id="menu-1" class="megamenu__dropdown-content active">
+                    <ul class="">
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <div class="megamenu__featured-product">
+                    <p>Confira os produtos que acabaram de chegar</p>
+                    <button>Ver todos</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li id="menu-item__categorias" class="menu-item main-menu__item">
+            <a>Departamento</a>
+            <div class="megamenu full-width">
+              <div class="megamenu__col-right">
+                <div class="col col-6">
+                  <p class="megamenu__title">Departamento</p>
+                  <div id="menu-1" class="megamenu__dropdown-content active">
+                    <ul class="">
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <div class="megamenu__featured-product">
+                    <p>Confira os produtos que acabaram de chegar</p>
+                    <button>Ver todos</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li id="menu-item__categorias" class="menu-item main-menu__item">
+            <a>Departamento</a>
+            <div class="megamenu full-width">
+              <div class="megamenu__col-right">
+                <div class="col col-6">
+                  <p class="megamenu__title">Departamento</p>
+                  <div id="menu-1" class="megamenu__dropdown-content active">
+                    <ul class="">
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <div class="megamenu__featured-product">
+                    <p>Confira os produtos que acabaram de chegar</p>
+                    <button>Ver todos</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li id="menu-item__categorias" class="menu-item main-menu__item">
+            <a>Departamento</a>
+            <div class="megamenu full-width">
+              <div class="megamenu__col-right">
+                <div class="col col-6">
+                  <p class="megamenu__title">Departamento</p>
+                  <div id="menu-1" class="megamenu__dropdown-content active">
+                    <ul class="">
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <div class="megamenu__featured-product">
+                    <p>Confira os produtos que acabaram de chegar</p>
+                    <button>Ver todos</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li id="menu-item__categorias" class="menu-item main-menu__item">
+            <a>Departamento</a>
+            <div class="megamenu full-width">
+              <div class="megamenu__col-right">
+                <div class="col col-6">
+                  <p class="megamenu__title">Departamento</p>
+                  <div id="menu-1" class="megamenu__dropdown-content active">
+                    <ul class="">
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <div class="megamenu__featured-product">
+                    <p>Confira os produtos que acabaram de chegar</p>
+                    <button>Ver todos</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li id="menu-item__categorias" class="menu-item main-menu__item">
+            <a>Departamento</a>
+            <div class="megamenu full-width">
+              <div class="megamenu__col-right">
+                <div class="col col-6">
+                  <p class="megamenu__title">Departamento</p>
+                  <div id="menu-1" class="megamenu__dropdown-content active">
+                    <ul class="">
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                      <li><a href="">Categoria</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <div class="megamenu__featured-product">
+                    <p>Confira os produtos que acabaram de chegar</p>
+                    <button>Ver todos</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="banner">
+    <div class="container">
+      <div class="row row-mobile">
+        <div class="col banner__image--box">
+          <img class="banner__image" src="assets/images/roupas-embpilhadas-em-uma-cadeira.webp" alt="Roupas empilhadas em uma cadeira">
+        </div>
+        <div class="row center">
+          <div class="col banner__content--box">
+            <h1 class="banner__title"><span>Super</span><span>Sale</span></h1>
+            <div class="banner__content txt-uppercase">
+              <p>Itens selecionados com até</p>
+              <p>50%off</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row row-mobile justify-content-between vertical-align-center mb-2">
+        <h2 class="title-primary">Lançamentos</h2>
+        <a class="link-secondary" href="#">Ver mais</a>
+      </div>
+      <div class="swiper">
+        <div class="swiper-wrapper carousel">
+          <div class="swiper-slide carousel__item">
+            <div class="product__badge">Novo</div>
+            <div class="product__image">
+              <img src="assets/images/modelo-camisa-branca.png" alt="Modelo camisa branca">
+            </div>
+            <div class="carousel__content">
+              <h3 class="product__title"> Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+              <bdi class="product__price-old">R$100,00</bdi>
+              <p class="product__current-price">R$79,90</p>
+              <small class="product__more-info">Ou em até 10x de R$7,90</small>
+              <button class="btn full-width">Comprar</button>
+            </div>
+          </div>
+        </div>
+        <div class=" swiper-pagination">
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row center">
+        <div class="col col-6">
+          <div class="bg__light-gray">
+            <img class="full-width" src="assets/images/caneca-avanti.webp" alt="Caneca Avanti">
+          </div>
+        </div>
+        <div class="col col-6">
+          <h2 class="title-secondary">Lorem Ipsum</h2>
+          <p class="txt-medium mt-1">Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.</p>
+          <p class="txt-medium mt-1">Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg__light-gray">
+    <div class="container">
+      <div class="row center">
+        <div class="col col-6 order-2__mobile">
+          <h2 class="title--medium txt-center color__medium-gray mb-3">Lorem Ipsum</h2>
+          <div class="row row-mobile center mb-3">
+            <div class="col flex-basis-60">
+              <img class="full-width bg-blue radius-50 pd-2" src="assets/images/map-pin.svg" alt="Map Pin">
+            </div>
+            <div class="col">
+              <p class="txt-small color__medium-gray">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+            </div>
+          </div>
+          <div class="row row-mobile center mb-3">
+            <div class="col flex-basis-60">
+              <img class="full-width bg-blue radius-50 pd-2" src="assets/images/map-pin.svg" alt="Map Pin">
+            </div>
+            <div class="col">
+              <p class="txt-small color__medium-gray">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+            </div>
+          </div>
+          <div class="row row-mobile center mb-3">
+            <div class="col flex-basis-60">
+              <img class="full-width bg-blue radius-50 pd-2" src="assets/images/map-pin.svg" alt="Map Pin">
+            </div>
+            <div class="col">
+              <p class="txt-small color__medium-gray">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-6">
+          <div>
+            <img class="full-width" src="assets/images/caneca_avanti_preta.webp" alt="Caneca Avanti">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row center">
+        <div class="col col-6">
+          <div class="bg__light-gray">
+            <img class="full-width" src="assets/images/caneca-avanti.webp" alt="Caneca Avanti">
+          </div>
+        </div>
+        <div class="col col-6">
+          <h2 class="title--medium">Lorem Ipsum</h2>
+          <p class="txt-medium mt-1">Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.</p>
+          <p class="txt-medium mt-1">Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row row-mobile justify-content-between vertical-align-center mb-2">
+        <h2 class="title-primary">Lançamentos</h2>
+        <a class="link-secondary" href="#">Ver mais</a>
+      </div>
+      <div class="swiper">
+        <div class="swiper-wrapper carousel">
+          <div class="swiper-slide carousel__item">
+            <div class="product__badge">Novo</div>
+            <div class="product__image">
+              <img src="assets/images/modelo-camisa-branca.png" alt="Modelo camisa branca">
+            </div>
+            <div class="carousel__content">
+              <h3 class="product__title"> Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+              <bdi class="product__price-old">R$100,00</bdi>
+              <p class="product__current-price">R$79,90</p>
+              <small class="product__more-info">Ou em até 10x de R$7,90</small>
+              <button class="btn full full-width">Comprar</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="row center bg-cover parallax">
+    <div class="bg-blue full-width txt-center color-white pd-3">
+      <p class="txt-medium">Entre em contato conosco e verifique a disponibilidade para sua região!</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container txt-center">
+      <h2 class="title-primary mb-2">Cadastre-se na nossa <span class="color-blue">newsletter</span></h2>
+      <div class="newsletter-box">
+        <form class="row center justify-content-center">
+          <div class="col flex-1">
+            <p><input class="input-field" type="text" name="name" id="name" placeholder="Digite seu nome"></p>
+          </div>
+          <div class="col flex-1">
+            <p><input class="input-field" type="email" name="email" id="email" placeholder="Digite seu e-mail"></p>
+          </div>
+          <div class="col">
+            <p><input class="input-checkbox" type="checkbox" name="privacy-policy" id="privacy-policy" value="accepted">
+              <label class="input-checkbox__label" for="privacy-policy" class="color__medium-gray">Estou de acordo com a <a class="txt-decoration__underline" href="">Política de Privacidade</a></label>
+            </p>
+          </div>
+          <div class="col">
+            <button class="btn">Cadastrar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="container">
+        <div class="row">
+          <div class="footer__social col flex-1">
+            <a href="/"><img src="assets/images/logo-avanti.png" alt="Logo Avanti"></a>
+            <div class="row row-mobile pd-t-2">
+              <div>
+                <a href="https://www.instagram.com/penseavanti/" target="_blank"><img src="assets/images/instagram.svg" alt="Instagram"></a>
+              </div>
+              <div>
+                <a href="" target="_blank"><img src="assets/images/facebook.svg" alt="Facebook"></a>
+              </div>
+              <div>
+                <a href="https://www.youtube.com/@penseavanti/videos" target="_blank"><img src="assets/images/youtube-logo.svg" alt="Youtube"></a>
+              </div>
+              <div>
+                <a href="" target="_blank"><img src="assets/images/logo-tiktok-svgrepo-com.svg" alt="Tiktok"></a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion col flex-1">
+            <h4 class="accordion-title">Institucional</h4>
+            <ul class="accordion-content">
+              <li class="mb-1">
+                <a class="link-primary" href="">
+                  <h5 class="font-normal">Sobre nós</h5>
+                </a>
+              </li>
+              <li class="mb-1">
+                <a class="link-primary" href="">
+                  <h5 class="font-normal">Nossas Lojas</h5>
+                </a>
+              </li>
+              <li class="mb-1">
+                <a class="link-primary" href="">
+                  <h5 class="font-normal">Privacidade e Segurança</h5>
+                </a>
+              </li>
+              <li class="mb-1">
+                <a class="link-primary" href="">
+                  <h5 class="font-normal">Termos e Condições</h5>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="accordion col flex-1">
+            <h4 class="accordion-title">Central de ajuda</h4>
+            <ul class="accordion-content">
+              <li class="mb-1">
+                <a class="link-primary" href="">
+                  <h5 class="font-normal">Fale Conosco</h5>
+                </a>
+              </li>
+              <li class="mb-1">
+                <a class="link-primary" href="">
+                  <h5 class="font-normal">Frete e Entrega</h5>
+                </a>
+              </li>
+              <li class="mb-1">
+                <a class="link-primary" href="">
+                  <h5 class="font-normal">Trocas e Devoluções</h5>
+                </a>
+              </li>
+              <li class="mb-1">
+                <a class="link-primary" href="">
+                  <h5 class="font-normal">Formas de Pagamento</h5>
+                </a>
+              </li>
+              <li class="mb-1">
+                <a class="link-primary" href="">
+                  <h5 class="font-normal">FAQ</h5>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="accordion col flex-1">
+            <h4 class="accordion-title">Atendimento</h4>
+            <ul class="accordion-content">
+              <li class="mb-1">
+                <h5 class="font-normal"><strong>Telefone:</strong> <a class="link-primary" href="tel:550012345678">(00) 1234-5678</a></h5>
+              </li>
+              <li class="mb-1">
+                <h5 class="font-normal"><strong>E-mail:</strong> <a class="link-primary" href="mailto:exemplo@exemplo.com.br">exemplo@exemplo.com.br</a></h5>
+              </li>
+              <li class="mb-1">
+                <h5 class="font-normal"><strong>Horário de atendimento:</strong>
+                  <p class="mb-1 mt-1">Segunda a Sábado: 07h00 às 23h</p>
+                  <p>Domingos e Feriados: 07h00 às 21h00</p>
+                </h5>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__payment-methods">
+          <div class="col">
+            <img src="assets/images/mastercard.svg" alt="">
+          </div>
+          <div class="col">
+            <img src="assets/images/visa.svg" alt="">
+          </div>
+          <div class="col">
+            <img src="assets/images/hipercard.svg" alt="">
+          </div>
+          <div class="col">
+            <img src="assets/images/elo.svg" alt="">
+          </div>
+          <div class="col">
+            <img src="assets/images/diners-club.svg" alt="">
+          </div>
+          <div class="col">
+            <img src="assets/images/paypal.svg" alt="">
+          </div>
+          <div class="col">
+            <img src="assets/images/pix.svg" alt="">
+          </div>
+          <div class="col">
+            <img src="assets/images/boleto.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p class="mb-3 txt-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+        <div class="row row-mobile center">
+          <div class="col">
+            <img src="assets/images/lets-encrypt.svg" alt="">
+          </div>
+          <div class="col">
+            <img src="assets/images/vtex-pci-200.svg" alt="">
+          </div>
+          <div class="col">
+            <img src="assets/images/avanti.svg" alt="">
+          </div>
+          <div class="col">
+            <img src="assets/images/vtex.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+  <script src="https://kit.fontawesome.com/08da4ec101.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>
