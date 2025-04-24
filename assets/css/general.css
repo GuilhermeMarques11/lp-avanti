@@ -212,7 +212,7 @@ img {
 }
 
 .parallax {
-  background-image: url(/assets/images/ambiente-avanti.webp);
+  background-image: url(../images/ambiente-avanti.webp);
   background-attachment: fixed;
   background-position: center center;
   height: 660px;
