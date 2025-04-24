@@ -137,7 +137,7 @@
       rgba(0, 0, 0, 0.74902) -20.45%,
       rgba(0, 0, 0, 0) 138.31%
     ),
-    url(/assets/images/caneca_avanti_preta.webp);
+    url(../images/caneca_avanti_preta.webp);
   background-size: cover;
   color: var(--secondary-color);
   padding: 50px 120px 50px 30px;
