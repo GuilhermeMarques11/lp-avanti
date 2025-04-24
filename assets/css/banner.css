@@ -42,11 +42,15 @@
   font-size: 3.7rem;
 }
 
-@media (max-width: 50rem) {
+@media (max-width: 1000px) {
   .banner .container,
   .banner__image--box.col {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .banner .col {
+    width: 50%;
   }
 
   .banner__image {
