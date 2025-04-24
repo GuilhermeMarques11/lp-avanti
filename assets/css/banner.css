@@ -43,6 +43,9 @@
 }
 
 @media (max-width: 1000px) {
+  .banner {
+    height: auto;
+  }
   .banner .container,
   .banner__image--box.col {
     padding-left: 0;
