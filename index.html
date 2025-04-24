@@ -11,890 +11,891 @@
 </head>
 
 <body>
-  <div class="top-bar">
-    <p>Ganhe <span style="background-color: #6220C1; border-radius: 4px;">R$10,00</span> de desconto no seu primeiro pedido. Utilize o cupom <span style="font-style: italic;font-weight: 400;">DESCONTO10</span></p>
-  </div>
+  <div id="header-sticky">
+    <div class="top-bar">
+      <p>Ganhe <span style="background-color: #6220C1; border-radius: 4px;">R$10,00</span> de desconto no seu primeiro pedido. Utilize o cupom <span style="font-style: italic;font-weight: 400;">DESCONTO10</span></p>
+    </div>
 
-  <header id="header" class="container">
-    <div class="row full-width justify-content-between">
-      <div class="header-top--column-left">
-        <div class="logo logo-desktop">
-          <a class="row center" href="/">
-            <img src="assets/images/logo-avanti.png" alt="Logo Avanti">
-          </a>
-        </div>
-        <div class="search-form__container">
-          <div class="search-form">
-            <input id="search-input" type="text" placeholder="Digite aqui o que você procura">
-            <img id="search-form__submit" src="assets/images/lupa.svg" alt="Lupa">
+    <header id="header" class="container">
+      <div class="row full-width justify-content-between">
+        <div class="header-top--column-left">
+          <div class="logo logo-desktop">
+            <a class="row center" href="/">
+              <img src="assets/images/logo-avanti.png" alt="Logo Avanti">
+            </a>
           </div>
-          <p class="search-result__message">"Você buscou por: <span id="search-result"></span>"</p>
+          <div class="search-form__container">
+            <div class="search-form">
+              <input id="search-input" type="text" placeholder="Digite aqui o que você procura">
+              <img id="search-form__submit" src="assets/images/lupa.svg" alt="Lupa">
+            </div>
+            <p class="search-result__message">"Você buscou por: <span id="search-result"></span>"</p>
+          </div>
+        </div>
+        <div class="header-top--column-right">
+          <div class="menu-mobile__icon">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="logo logo-mobile">
+            <a class="row center" href="/">
+              <img src="assets/images/logo-avanti.png" alt="Logo Avanti">
+            </a>
+          </div>
+          <div class="user">
+            <img src="assets/images/user.svg" alt="User">
+            <p>Olá, Nome cliente!</p>
+          </div>
+          <div class="cart">
+            <img src="assets/images/cart.svg" alt="Cart">
+            <p class="cart__counter radius-50">2</p>
+          </div>
         </div>
       </div>
-      <div class="header-top--column-right">
-        <div class="menu-mobile__icon">
-          <i class="fa-solid fa-bars"></i>
-        </div>
-        <div class="logo logo-mobile">
-          <a class="row center" href="/">
-            <img src="assets/images/logo-avanti.png" alt="Logo Avanti">
-          </a>
-        </div>
-        <div class="user">
-          <img src="assets/images/user.svg" alt="User">
-          <p>Olá, Nome cliente!</p>
-        </div>
-        <div class="cart">
-          <img src="assets/images/cart.svg" alt="Cart">
-          <p class="cart__counter radius-50">2</p>
-        </div>
+      <div class="header__bottom menu-mobile">
+        <nav class="menu-container">
+          <div class="user user-mobile">
+            <img src="assets/images/user.svg" alt="User">
+            <p>Olá, Nome cliente!</p>
+          </div>
+          <ul id="menu">
+            <li id="menu-item__categorias" class="menu-item main-menu__item">
+              <i class="fa-solid fa-bars hide-on-mobile"></i>
+              <a>Todas as Categorias</a>
+              <div class="megamenu megamenu__has-dropdown full-width">
+                <div class="megamenu__col-left">
+                  <div class="megamenu__dropdown-container">
+                    <ul>
+                      <li class="megamenu__dropdown active" data-menu="menu-1">Departamento</li>
+                      <li class="megamenu__dropdown" data-menu="menu-2">Departamento</li>
+                      <li class="megamenu__dropdown" data-menu="menu-3">Departamento</li>
+                      <li class="megamenu__dropdown" data-menu="menu-4">Departamento</li>
+                      <li class="megamenu__dropdown" data-menu="menu-5">Departamento</li>
+                      <li class="megamenu__dropdown" data-menu="menu-6">Departamento</li>
+                      <li class="megamenu__dropdown" data-menu="menu-7">Departamento</li>
+                      <li class="megamenu__dropdown" data-menu="menu-8">Departamento</li>
+                      <li class="megamenu__dropdown" data-menu="menu-9">Departamento</li>
+                      <li class="megamenu__dropdown" data-menu="menu-10">Departamento</li>
+                      <li class="megamenu__dropdown" data-menu="menu-11">Departamento</li>
+                      <li class="megamenu__dropdown" data-menu="menu-12">Departamento</li>
+                      <li class="megamenu__dropdown" data-menu="menu-13">Departamento</li>
+                      <li class="megamenu__dropdown" data-menu="menu-14">Departamento</li>
+                      <li class="megamenu__dropdown" data-menu="menu-15">Departamento</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="megamenu__col-right">
+                  <div class="col col-6">
+                    <div id="menu-1" class="megamenu__dropdown-content active">
+                      <ul class="">
+                        <li><a href="">Categoria 1</a></li>
+                        <li><a href="">Categoria 1</a></li>
+                        <li><a href="">Categoria 1</a></li>
+                        <li><a href="">Categoria 1</a></li>
+                        <li><a href="">Categoria 1</a></li>
+                        <li><a href="">Categoria 1</a></li>
+                        <li><a href="">Categoria 1</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 1</a></li>
+                        <li><a href="">Categoria 1</a></li>
+                        <li><a href="">Categoria 1</a></li>
+                        <li><a href="">Categoria 1</a></li>
+                        <li><a href="">Categoria 1</a></li>
+                        <li><a href="">Categoria 1</a></li>
+                        <li><a href="">Categoria 1</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 1</a></li>
+                        <li><a href="">Categoria 1</a></li>
+                        <li><a href="">Categoria 1</a></li>
+                        <li><a href="">Categoria 1</a></li>
+                        <li><a href="">Categoria 1</a></li>
+                        <li><a href="">Categoria 1</a></li>
+                        <li><a href="">Categoria 1</a></li>
+                      </ul>
+                    </div>
+                    <div id="menu-2" class="megamenu__dropdown-content">
+                      <ul class="">
+                        <li><a href="">Categoria 2</a></li>
+                        <li><a href="">Categoria 2</a></li>
+                        <li><a href="">Categoria 2</a></li>
+                        <li><a href="">Categoria 2</a></li>
+                        <li><a href="">Categoria 2</a></li>
+                        <li><a href="">Categoria 2</a></li>
+                        <li><a href="">Categoria 2</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 2</a></li>
+                        <li><a href="">Categoria 2</a></li>
+                        <li><a href="">Categoria 2</a></li>
+                        <li><a href="">Categoria 2</a></li>
+                        <li><a href="">Categoria 2</a></li>
+                        <li><a href="">Categoria 2</a></li>
+                        <li><a href="">Categoria 2</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 2</a></li>
+                        <li><a href="">Categoria 2</a></li>
+                        <li><a href="">Categoria 2</a></li>
+                        <li><a href="">Categoria 2</a></li>
+                        <li><a href="">Categoria 2</a></li>
+                        <li><a href="">Categoria 2</a></li>
+                        <li><a href="">Categoria 2</a></li>
+                      </ul>
+                    </div>
+                    <div id="menu-3" class="megamenu__dropdown-content">
+                      <ul class="">
+                        <li><a href="">Categoria 3</a></li>
+                        <li><a href="">Categoria 3</a></li>
+                        <li><a href="">Categoria 3</a></li>
+                        <li><a href="">Categoria 3</a></li>
+                        <li><a href="">Categoria 3</a></li>
+                        <li><a href="">Categoria 3</a></li>
+                        <li><a href="">Categoria 3</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 3</a></li>
+                        <li><a href="">Categoria 3</a></li>
+                        <li><a href="">Categoria 3</a></li>
+                        <li><a href="">Categoria 3</a></li>
+                        <li><a href="">Categoria 3</a></li>
+                        <li><a href="">Categoria 3</a></li>
+                        <li><a href="">Categoria 3</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 3</a></li>
+                        <li><a href="">Categoria 3</a></li>
+                        <li><a href="">Categoria 3</a></li>
+                        <li><a href="">Categoria 3</a></li>
+                        <li><a href="">Categoria 3</a></li>
+                        <li><a href="">Categoria 3</a></li>
+                        <li><a href="">Categoria 3</a></li>
+                      </ul>
+                    </div>
+                    <div id="menu-4" class="megamenu__dropdown-content">
+                      <ul class="">
+                        <li><a href="">Categoria 4</a></li>
+                        <li><a href="">Categoria 4</a></li>
+                        <li><a href="">Categoria 4</a></li>
+                        <li><a href="">Categoria 4</a></li>
+                        <li><a href="">Categoria 4</a></li>
+                        <li><a href="">Categoria 4</a></li>
+                        <li><a href="">Categoria 4</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 4</a></li>
+                        <li><a href="">Categoria 4</a></li>
+                        <li><a href="">Categoria 4</a></li>
+                        <li><a href="">Categoria 4</a></li>
+                        <li><a href="">Categoria 4</a></li>
+                        <li><a href="">Categoria 4</a></li>
+                        <li><a href="">Categoria 4</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 4</a></li>
+                        <li><a href="">Categoria 4</a></li>
+                        <li><a href="">Categoria 4</a></li>
+                        <li><a href="">Categoria 4</a></li>
+                        <li><a href="">Categoria 4</a></li>
+                        <li><a href="">Categoria 4</a></li>
+                        <li><a href="">Categoria 4</a></li>
+                      </ul>
+                    </div>
+                    <div id="menu-5" class="megamenu__dropdown-content">
+                      <ul class="">
+                        <li><a href="">Categoria 5</a></li>
+                        <li><a href="">Categoria 5</a></li>
+                        <li><a href="">Categoria 5</a></li>
+                        <li><a href="">Categoria 5</a></li>
+                        <li><a href="">Categoria 5</a></li>
+                        <li><a href="">Categoria 5</a></li>
+                        <li><a href="">Categoria 5</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 5</a></li>
+                        <li><a href="">Categoria 5</a></li>
+                        <li><a href="">Categoria 5</a></li>
+                        <li><a href="">Categoria 5</a></li>
+                        <li><a href="">Categoria 5</a></li>
+                        <li><a href="">Categoria 5</a></li>
+                        <li><a href="">Categoria 5</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 5</a></li>
+                        <li><a href="">Categoria 5</a></li>
+                        <li><a href="">Categoria 5</a></li>
+                        <li><a href="">Categoria 5</a></li>
+                        <li><a href="">Categoria 5</a></li>
+                        <li><a href="">Categoria 5</a></li>
+                        <li><a href="">Categoria 5</a></li>
+                      </ul>
+                    </div>
+                    <div id="menu-6" class="megamenu__dropdown-content">
+                      <ul class="">
+                        <li><a href="">Categoria 6</a></li>
+                        <li><a href="">Categoria 6</a></li>
+                        <li><a href="">Categoria 6</a></li>
+                        <li><a href="">Categoria 6</a></li>
+                        <li><a href="">Categoria 6</a></li>
+                        <li><a href="">Categoria 6</a></li>
+                        <li><a href="">Categoria 6</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 6</a></li>
+                        <li><a href="">Categoria 6</a></li>
+                        <li><a href="">Categoria 6</a></li>
+                        <li><a href="">Categoria 6</a></li>
+                        <li><a href="">Categoria 6</a></li>
+                        <li><a href="">Categoria 6</a></li>
+                        <li><a href="">Categoria 6</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 6</a></li>
+                        <li><a href="">Categoria 6</a></li>
+                        <li><a href="">Categoria 6</a></li>
+                        <li><a href="">Categoria 6</a></li>
+                        <li><a href="">Categoria 6</a></li>
+                        <li><a href="">Categoria 6</a></li>
+                        <li><a href="">Categoria 6</a></li>
+                      </ul>
+                    </div>
+                    <div id="menu-7" class="megamenu__dropdown-content">
+                      <ul class="">
+                        <li><a href="">Categoria 7</a></li>
+                        <li><a href="">Categoria 7</a></li>
+                        <li><a href="">Categoria 7</a></li>
+                        <li><a href="">Categoria 7</a></li>
+                        <li><a href="">Categoria 7</a></li>
+                        <li><a href="">Categoria 7</a></li>
+                        <li><a href="">Categoria 7</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 7</a></li>
+                        <li><a href="">Categoria 7</a></li>
+                        <li><a href="">Categoria 7</a></li>
+                        <li><a href="">Categoria 7</a></li>
+                        <li><a href="">Categoria 7</a></li>
+                        <li><a href="">Categoria 7</a></li>
+                        <li><a href="">Categoria 7</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 7</a></li>
+                        <li><a href="">Categoria 7</a></li>
+                        <li><a href="">Categoria 7</a></li>
+                        <li><a href="">Categoria 7</a></li>
+                        <li><a href="">Categoria 7</a></li>
+                        <li><a href="">Categoria 7</a></li>
+                        <li><a href="">Categoria 7</a></li>
+                      </ul>
+                    </div>
+                    <div id="menu-8" class="megamenu__dropdown-content">
+                      <ul class="">
+                        <li><a href="">Categoria 8</a></li>
+                        <li><a href="">Categoria 8</a></li>
+                        <li><a href="">Categoria 8</a></li>
+                        <li><a href="">Categoria 8</a></li>
+                        <li><a href="">Categoria 8</a></li>
+                        <li><a href="">Categoria 8</a></li>
+                        <li><a href="">Categoria 8</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 8</a></li>
+                        <li><a href="">Categoria 8</a></li>
+                        <li><a href="">Categoria 8</a></li>
+                        <li><a href="">Categoria 8</a></li>
+                        <li><a href="">Categoria 8</a></li>
+                        <li><a href="">Categoria 8</a></li>
+                        <li><a href="">Categoria 8</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 8</a></li>
+                        <li><a href="">Categoria 8</a></li>
+                        <li><a href="">Categoria 8</a></li>
+                        <li><a href="">Categoria 8</a></li>
+                        <li><a href="">Categoria 8</a></li>
+                        <li><a href="">Categoria 8</a></li>
+                        <li><a href="">Categoria 8</a></li>
+                      </ul>
+                    </div>
+                    <div id="menu-9" class="megamenu__dropdown-content">
+                      <ul class="">
+                        <li><a href="">Categoria 9</a></li>
+                        <li><a href="">Categoria 9</a></li>
+                        <li><a href="">Categoria 9</a></li>
+                        <li><a href="">Categoria 9</a></li>
+                        <li><a href="">Categoria 9</a></li>
+                        <li><a href="">Categoria 9</a></li>
+                        <li><a href="">Categoria 9</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 9</a></li>
+                        <li><a href="">Categoria 9</a></li>
+                        <li><a href="">Categoria 9</a></li>
+                        <li><a href="">Categoria 9</a></li>
+                        <li><a href="">Categoria 9</a></li>
+                        <li><a href="">Categoria 9</a></li>
+                        <li><a href="">Categoria 9</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 9</a></li>
+                        <li><a href="">Categoria 9</a></li>
+                        <li><a href="">Categoria 9</a></li>
+                        <li><a href="">Categoria 9</a></li>
+                        <li><a href="">Categoria 9</a></li>
+                        <li><a href="">Categoria 9</a></li>
+                        <li><a href="">Categoria 9</a></li>
+                      </ul>
+                    </div>
+                    <div id="menu-10" class="megamenu__dropdown-content">
+                      <ul class="">
+                        <li><a href="">Categoria 10</a></li>
+                        <li><a href="">Categoria 10</a></li>
+                        <li><a href="">Categoria 10</a></li>
+                        <li><a href="">Categoria 10</a></li>
+                        <li><a href="">Categoria 10</a></li>
+                        <li><a href="">Categoria 10</a></li>
+                        <li><a href="">Categoria 10</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 10</a></li>
+                        <li><a href="">Categoria 10</a></li>
+                        <li><a href="">Categoria 10</a></li>
+                        <li><a href="">Categoria 10</a></li>
+                        <li><a href="">Categoria 10</a></li>
+                        <li><a href="">Categoria 10</a></li>
+                        <li><a href="">Categoria 10</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 10</a></li>
+                        <li><a href="">Categoria 10</a></li>
+                        <li><a href="">Categoria 10</a></li>
+                        <li><a href="">Categoria 10</a></li>
+                        <li><a href="">Categoria 10</a></li>
+                        <li><a href="">Categoria 10</a></li>
+                        <li><a href="">Categoria 10</a></li>
+                      </ul>
+                    </div>
+                    <div id="menu-11" class="megamenu__dropdown-content">
+                      <ul class="">
+                        <li><a href="">Categoria 11</a></li>
+                        <li><a href="">Categoria 11</a></li>
+                        <li><a href="">Categoria 11</a></li>
+                        <li><a href="">Categoria 11</a></li>
+                        <li><a href="">Categoria 11</a></li>
+                        <li><a href="">Categoria 11</a></li>
+                        <li><a href="">Categoria 11</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 11</a></li>
+                        <li><a href="">Categoria 11</a></li>
+                        <li><a href="">Categoria 11</a></li>
+                        <li><a href="">Categoria 11</a></li>
+                        <li><a href="">Categoria 11</a></li>
+                        <li><a href="">Categoria 11</a></li>
+                        <li><a href="">Categoria 11</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 11</a></li>
+                        <li><a href="">Categoria 11</a></li>
+                        <li><a href="">Categoria 11</a></li>
+                        <li><a href="">Categoria 11</a></li>
+                        <li><a href="">Categoria 11</a></li>
+                        <li><a href="">Categoria 11</a></li>
+                        <li><a href="">Categoria 11</a></li>
+                      </ul>
+                    </div>
+                    <div id="menu-12" class="megamenu__dropdown-content">
+                      <ul class="">
+                        <li><a href="">Categoria 12</a></li>
+                        <li><a href="">Categoria 12</a></li>
+                        <li><a href="">Categoria 12</a></li>
+                        <li><a href="">Categoria 12</a></li>
+                        <li><a href="">Categoria 12</a></li>
+                        <li><a href="">Categoria 12</a></li>
+                        <li><a href="">Categoria 12</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 12</a></li>
+                        <li><a href="">Categoria 12</a></li>
+                        <li><a href="">Categoria 12</a></li>
+                        <li><a href="">Categoria 12</a></li>
+                        <li><a href="">Categoria 12</a></li>
+                        <li><a href="">Categoria 12</a></li>
+                        <li><a href="">Categoria 12</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 12</a></li>
+                        <li><a href="">Categoria 12</a></li>
+                        <li><a href="">Categoria 12</a></li>
+                        <li><a href="">Categoria 12</a></li>
+                        <li><a href="">Categoria 12</a></li>
+                        <li><a href="">Categoria 12</a></li>
+                        <li><a href="">Categoria 12</a></li>
+                      </ul>
+                    </div>
+                    <div id="menu-13" class="megamenu__dropdown-content">
+                      <ul class="">
+                        <li><a href="">Categoria 13</a></li>
+                        <li><a href="">Categoria 13</a></li>
+                        <li><a href="">Categoria 13</a></li>
+                        <li><a href="">Categoria 13</a></li>
+                        <li><a href="">Categoria 13</a></li>
+                        <li><a href="">Categoria 13</a></li>
+                        <li><a href="">Categoria 13</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 13</a></li>
+                        <li><a href="">Categoria 13</a></li>
+                        <li><a href="">Categoria 13</a></li>
+                        <li><a href="">Categoria 13</a></li>
+                        <li><a href="">Categoria 13</a></li>
+                        <li><a href="">Categoria 13</a></li>
+                        <li><a href="">Categoria 13</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 13</a></li>
+                        <li><a href="">Categoria 13</a></li>
+                        <li><a href="">Categoria 13</a></li>
+                        <li><a href="">Categoria 13</a></li>
+                        <li><a href="">Categoria 13</a></li>
+                        <li><a href="">Categoria 13</a></li>
+                        <li><a href="">Categoria 13</a></li>
+                      </ul>
+                    </div>
+                    <div id="menu-14" class="megamenu__dropdown-content">
+                      <ul class="">
+                        <li><a href="">Categoria 14</a></li>
+                        <li><a href="">Categoria 14</a></li>
+                        <li><a href="">Categoria 14</a></li>
+                        <li><a href="">Categoria 14</a></li>
+                        <li><a href="">Categoria 14</a></li>
+                        <li><a href="">Categoria 14</a></li>
+                        <li><a href="">Categoria 14</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 14</a></li>
+                        <li><a href="">Categoria 14</a></li>
+                        <li><a href="">Categoria 14</a></li>
+                        <li><a href="">Categoria 14</a></li>
+                        <li><a href="">Categoria 14</a></li>
+                        <li><a href="">Categoria 14</a></li>
+                        <li><a href="">Categoria 14</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 14</a></li>
+                        <li><a href="">Categoria 14</a></li>
+                        <li><a href="">Categoria 14</a></li>
+                        <li><a href="">Categoria 14</a></li>
+                        <li><a href="">Categoria 14</a></li>
+                        <li><a href="">Categoria 14</a></li>
+                        <li><a href="">Categoria 14</a></li>
+                      </ul>
+                    </div>
+                    <div id="menu-15" class="megamenu__dropdown-content">
+                      <ul class="">
+                        <li><a href="">Categoria 15</a></li>
+                        <li><a href="">Categoria 15</a></li>
+                        <li><a href="">Categoria 15</a></li>
+                        <li><a href="">Categoria 15</a></li>
+                        <li><a href="">Categoria 15</a></li>
+                        <li><a href="">Categoria 15</a></li>
+                        <li><a href="">Categoria 15</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 15</a></li>
+                        <li><a href="">Categoria 15</a></li>
+                        <li><a href="">Categoria 15</a></li>
+                        <li><a href="">Categoria 15</a></li>
+                        <li><a href="">Categoria 15</a></li>
+                        <li><a href="">Categoria 15</a></li>
+                        <li><a href="">Categoria 15</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria 15</a></li>
+                        <li><a href="">Categoria 15</a></li>
+                        <li><a href="">Categoria 15</a></li>
+                        <li><a href="">Categoria 15</a></li>
+                        <li><a href="">Categoria 15</a></li>
+                        <li><a href="">Categoria 15</a></li>
+                        <li><a href="">Categoria 15</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="flex-1">
+                    <div class="megamenu__featured-product">
+                      <p>Confira os produtos que acabaram de chegar</p>
+                      <button>Ver todos</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li id="menu-item__categorias" class="menu-item main-menu__item">
+              <a>Departamento</a>
+              <div class="megamenu full-width">
+                <div class="megamenu__col-right">
+                  <div class="col col-6">
+                    <p class="megamenu__title">Departamento</p>
+                    <div id="menu-1" class="megamenu__dropdown-content active">
+                      <ul class="">
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="flex-1">
+                    <div class="megamenu__featured-product">
+                      <p>Confira os produtos que acabaram de chegar</p>
+                      <button>Ver todos</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li id="menu-item__categorias" class="menu-item main-menu__item">
+              <a>Departamento</a>
+              <div class="megamenu full-width">
+                <div class="megamenu__col-right">
+                  <div class="col col-6">
+                    <p class="megamenu__title">Departamento</p>
+                    <div id="menu-1" class="megamenu__dropdown-content active">
+                      <ul class="">
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="flex-1">
+                    <div class="megamenu__featured-product">
+                      <p>Confira os produtos que acabaram de chegar</p>
+                      <button>Ver todos</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li id="menu-item__categorias" class="menu-item main-menu__item">
+              <a>Departamento</a>
+              <div class="megamenu full-width">
+                <div class="megamenu__col-right">
+                  <div class="col col-6">
+                    <p class="megamenu__title">Departamento</p>
+                    <div id="menu-1" class="megamenu__dropdown-content active">
+                      <ul class="">
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="flex-1">
+                    <div class="megamenu__featured-product">
+                      <p>Confira os produtos que acabaram de chegar</p>
+                      <button>Ver todos</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li id="menu-item__categorias" class="menu-item main-menu__item">
+              <a>Departamento</a>
+              <div class="megamenu full-width">
+                <div class="megamenu__col-right">
+                  <div class="col col-6">
+                    <p class="megamenu__title">Departamento</p>
+                    <div id="menu-1" class="megamenu__dropdown-content active">
+                      <ul class="">
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="flex-1">
+                    <div class="megamenu__featured-product">
+                      <p>Confira os produtos que acabaram de chegar</p>
+                      <button>Ver todos</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li id="menu-item__categorias" class="menu-item main-menu__item">
+              <a>Departamento</a>
+              <div class="megamenu full-width">
+                <div class="megamenu__col-right">
+                  <div class="col col-6">
+                    <p class="megamenu__title">Departamento</p>
+                    <div id="menu-1" class="megamenu__dropdown-content active">
+                      <ul class="">
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="flex-1">
+                    <div class="megamenu__featured-product">
+                      <p>Confira os produtos que acabaram de chegar</p>
+                      <button>Ver todos</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li id="menu-item__categorias" class="menu-item main-menu__item">
+              <a>Departamento</a>
+              <div class="megamenu full-width">
+                <div class="megamenu__col-right">
+                  <div class="col col-6">
+                    <p class="megamenu__title">Departamento</p>
+                    <div id="menu-1" class="megamenu__dropdown-content active">
+                      <ul class="">
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="flex-1">
+                    <div class="megamenu__featured-product">
+                      <p>Confira os produtos que acabaram de chegar</p>
+                      <button>Ver todos</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li id="menu-item__categorias" class="menu-item main-menu__item">
+              <a>Departamento</a>
+              <div class="megamenu full-width">
+                <div class="megamenu__col-right">
+                  <div class="col col-6">
+                    <p class="megamenu__title">Departamento</p>
+                    <div id="menu-1" class="megamenu__dropdown-content active">
+                      <ul class="">
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="flex-1">
+                    <div class="megamenu__featured-product">
+                      <p>Confira os produtos que acabaram de chegar</p>
+                      <button>Ver todos</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li id="menu-item__categorias" class="menu-item main-menu__item">
+              <a>Departamento</a>
+              <div class="megamenu full-width">
+                <div class="megamenu__col-right">
+                  <div class="col col-6">
+                    <p class="megamenu__title">Departamento</p>
+                    <div id="menu-1" class="megamenu__dropdown-content active">
+                      <ul class="">
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                        <li><a href="">Categoria</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="flex-1">
+                    <div class="megamenu__featured-product">
+                      <p>Confira os produtos que acabaram de chegar</p>
+                      <button>Ver todos</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </div>
-    <div class="header__bottom menu-mobile">
-      <nav class="menu-container">
-        <div class="user user-mobile">
-          <img src="assets/images/user.svg" alt="User">
-          <p>Olá, Nome cliente!</p>
-        </div>
-        <ul id="menu">
-          <li id="menu-item__categorias" class="menu-item main-menu__item">
-            <i class="fa-solid fa-bars hide-on-mobile"></i>
-            <a>Todas as Categorias</a>
-            <div class="megamenu megamenu__has-dropdown full-width">
-              <div class="megamenu__col-left">
-                <div class="megamenu__dropdown-container">
-                  <ul>
-                    <li class="megamenu__dropdown active" data-menu="menu-1">Departamento</li>
-                    <li class="megamenu__dropdown" data-menu="menu-2">Departamento</li>
-                    <li class="megamenu__dropdown" data-menu="menu-3">Departamento</li>
-                    <li class="megamenu__dropdown" data-menu="menu-4">Departamento</li>
-                    <li class="megamenu__dropdown" data-menu="menu-5">Departamento</li>
-                    <li class="megamenu__dropdown" data-menu="menu-6">Departamento</li>
-                    <li class="megamenu__dropdown" data-menu="menu-7">Departamento</li>
-                    <li class="megamenu__dropdown" data-menu="menu-8">Departamento</li>
-                    <li class="megamenu__dropdown" data-menu="menu-9">Departamento</li>
-                    <li class="megamenu__dropdown" data-menu="menu-10">Departamento</li>
-                    <li class="megamenu__dropdown" data-menu="menu-11">Departamento</li>
-                    <li class="megamenu__dropdown" data-menu="menu-12">Departamento</li>
-                    <li class="megamenu__dropdown" data-menu="menu-13">Departamento</li>
-                    <li class="megamenu__dropdown" data-menu="menu-14">Departamento</li>
-                    <li class="megamenu__dropdown" data-menu="menu-15">Departamento</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="megamenu__col-right">
-                <div class="col col-6">
-                  <div id="menu-1" class="megamenu__dropdown-content active">
-                    <ul class="">
-                      <li><a href="">Categoria 1</a></li>
-                      <li><a href="">Categoria 1</a></li>
-                      <li><a href="">Categoria 1</a></li>
-                      <li><a href="">Categoria 1</a></li>
-                      <li><a href="">Categoria 1</a></li>
-                      <li><a href="">Categoria 1</a></li>
-                      <li><a href="">Categoria 1</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 1</a></li>
-                      <li><a href="">Categoria 1</a></li>
-                      <li><a href="">Categoria 1</a></li>
-                      <li><a href="">Categoria 1</a></li>
-                      <li><a href="">Categoria 1</a></li>
-                      <li><a href="">Categoria 1</a></li>
-                      <li><a href="">Categoria 1</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 1</a></li>
-                      <li><a href="">Categoria 1</a></li>
-                      <li><a href="">Categoria 1</a></li>
-                      <li><a href="">Categoria 1</a></li>
-                      <li><a href="">Categoria 1</a></li>
-                      <li><a href="">Categoria 1</a></li>
-                      <li><a href="">Categoria 1</a></li>
-                    </ul>
-                  </div>
-                  <div id="menu-2" class="megamenu__dropdown-content">
-                    <ul class="">
-                      <li><a href="">Categoria 2</a></li>
-                      <li><a href="">Categoria 2</a></li>
-                      <li><a href="">Categoria 2</a></li>
-                      <li><a href="">Categoria 2</a></li>
-                      <li><a href="">Categoria 2</a></li>
-                      <li><a href="">Categoria 2</a></li>
-                      <li><a href="">Categoria 2</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 2</a></li>
-                      <li><a href="">Categoria 2</a></li>
-                      <li><a href="">Categoria 2</a></li>
-                      <li><a href="">Categoria 2</a></li>
-                      <li><a href="">Categoria 2</a></li>
-                      <li><a href="">Categoria 2</a></li>
-                      <li><a href="">Categoria 2</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 2</a></li>
-                      <li><a href="">Categoria 2</a></li>
-                      <li><a href="">Categoria 2</a></li>
-                      <li><a href="">Categoria 2</a></li>
-                      <li><a href="">Categoria 2</a></li>
-                      <li><a href="">Categoria 2</a></li>
-                      <li><a href="">Categoria 2</a></li>
-                    </ul>
-                  </div>
-                  <div id="menu-3" class="megamenu__dropdown-content">
-                    <ul class="">
-                      <li><a href="">Categoria 3</a></li>
-                      <li><a href="">Categoria 3</a></li>
-                      <li><a href="">Categoria 3</a></li>
-                      <li><a href="">Categoria 3</a></li>
-                      <li><a href="">Categoria 3</a></li>
-                      <li><a href="">Categoria 3</a></li>
-                      <li><a href="">Categoria 3</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 3</a></li>
-                      <li><a href="">Categoria 3</a></li>
-                      <li><a href="">Categoria 3</a></li>
-                      <li><a href="">Categoria 3</a></li>
-                      <li><a href="">Categoria 3</a></li>
-                      <li><a href="">Categoria 3</a></li>
-                      <li><a href="">Categoria 3</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 3</a></li>
-                      <li><a href="">Categoria 3</a></li>
-                      <li><a href="">Categoria 3</a></li>
-                      <li><a href="">Categoria 3</a></li>
-                      <li><a href="">Categoria 3</a></li>
-                      <li><a href="">Categoria 3</a></li>
-                      <li><a href="">Categoria 3</a></li>
-                    </ul>
-                  </div>
-                  <div id="menu-4" class="megamenu__dropdown-content">
-                    <ul class="">
-                      <li><a href="">Categoria 4</a></li>
-                      <li><a href="">Categoria 4</a></li>
-                      <li><a href="">Categoria 4</a></li>
-                      <li><a href="">Categoria 4</a></li>
-                      <li><a href="">Categoria 4</a></li>
-                      <li><a href="">Categoria 4</a></li>
-                      <li><a href="">Categoria 4</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 4</a></li>
-                      <li><a href="">Categoria 4</a></li>
-                      <li><a href="">Categoria 4</a></li>
-                      <li><a href="">Categoria 4</a></li>
-                      <li><a href="">Categoria 4</a></li>
-                      <li><a href="">Categoria 4</a></li>
-                      <li><a href="">Categoria 4</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 4</a></li>
-                      <li><a href="">Categoria 4</a></li>
-                      <li><a href="">Categoria 4</a></li>
-                      <li><a href="">Categoria 4</a></li>
-                      <li><a href="">Categoria 4</a></li>
-                      <li><a href="">Categoria 4</a></li>
-                      <li><a href="">Categoria 4</a></li>
-                    </ul>
-                  </div>
-                  <div id="menu-5" class="megamenu__dropdown-content">
-                    <ul class="">
-                      <li><a href="">Categoria 5</a></li>
-                      <li><a href="">Categoria 5</a></li>
-                      <li><a href="">Categoria 5</a></li>
-                      <li><a href="">Categoria 5</a></li>
-                      <li><a href="">Categoria 5</a></li>
-                      <li><a href="">Categoria 5</a></li>
-                      <li><a href="">Categoria 5</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 5</a></li>
-                      <li><a href="">Categoria 5</a></li>
-                      <li><a href="">Categoria 5</a></li>
-                      <li><a href="">Categoria 5</a></li>
-                      <li><a href="">Categoria 5</a></li>
-                      <li><a href="">Categoria 5</a></li>
-                      <li><a href="">Categoria 5</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 5</a></li>
-                      <li><a href="">Categoria 5</a></li>
-                      <li><a href="">Categoria 5</a></li>
-                      <li><a href="">Categoria 5</a></li>
-                      <li><a href="">Categoria 5</a></li>
-                      <li><a href="">Categoria 5</a></li>
-                      <li><a href="">Categoria 5</a></li>
-                    </ul>
-                  </div>
-                  <div id="menu-6" class="megamenu__dropdown-content">
-                    <ul class="">
-                      <li><a href="">Categoria 6</a></li>
-                      <li><a href="">Categoria 6</a></li>
-                      <li><a href="">Categoria 6</a></li>
-                      <li><a href="">Categoria 6</a></li>
-                      <li><a href="">Categoria 6</a></li>
-                      <li><a href="">Categoria 6</a></li>
-                      <li><a href="">Categoria 6</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 6</a></li>
-                      <li><a href="">Categoria 6</a></li>
-                      <li><a href="">Categoria 6</a></li>
-                      <li><a href="">Categoria 6</a></li>
-                      <li><a href="">Categoria 6</a></li>
-                      <li><a href="">Categoria 6</a></li>
-                      <li><a href="">Categoria 6</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 6</a></li>
-                      <li><a href="">Categoria 6</a></li>
-                      <li><a href="">Categoria 6</a></li>
-                      <li><a href="">Categoria 6</a></li>
-                      <li><a href="">Categoria 6</a></li>
-                      <li><a href="">Categoria 6</a></li>
-                      <li><a href="">Categoria 6</a></li>
-                    </ul>
-                  </div>
-                  <div id="menu-7" class="megamenu__dropdown-content">
-                    <ul class="">
-                      <li><a href="">Categoria 7</a></li>
-                      <li><a href="">Categoria 7</a></li>
-                      <li><a href="">Categoria 7</a></li>
-                      <li><a href="">Categoria 7</a></li>
-                      <li><a href="">Categoria 7</a></li>
-                      <li><a href="">Categoria 7</a></li>
-                      <li><a href="">Categoria 7</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 7</a></li>
-                      <li><a href="">Categoria 7</a></li>
-                      <li><a href="">Categoria 7</a></li>
-                      <li><a href="">Categoria 7</a></li>
-                      <li><a href="">Categoria 7</a></li>
-                      <li><a href="">Categoria 7</a></li>
-                      <li><a href="">Categoria 7</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 7</a></li>
-                      <li><a href="">Categoria 7</a></li>
-                      <li><a href="">Categoria 7</a></li>
-                      <li><a href="">Categoria 7</a></li>
-                      <li><a href="">Categoria 7</a></li>
-                      <li><a href="">Categoria 7</a></li>
-                      <li><a href="">Categoria 7</a></li>
-                    </ul>
-                  </div>
-                  <div id="menu-8" class="megamenu__dropdown-content">
-                    <ul class="">
-                      <li><a href="">Categoria 8</a></li>
-                      <li><a href="">Categoria 8</a></li>
-                      <li><a href="">Categoria 8</a></li>
-                      <li><a href="">Categoria 8</a></li>
-                      <li><a href="">Categoria 8</a></li>
-                      <li><a href="">Categoria 8</a></li>
-                      <li><a href="">Categoria 8</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 8</a></li>
-                      <li><a href="">Categoria 8</a></li>
-                      <li><a href="">Categoria 8</a></li>
-                      <li><a href="">Categoria 8</a></li>
-                      <li><a href="">Categoria 8</a></li>
-                      <li><a href="">Categoria 8</a></li>
-                      <li><a href="">Categoria 8</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 8</a></li>
-                      <li><a href="">Categoria 8</a></li>
-                      <li><a href="">Categoria 8</a></li>
-                      <li><a href="">Categoria 8</a></li>
-                      <li><a href="">Categoria 8</a></li>
-                      <li><a href="">Categoria 8</a></li>
-                      <li><a href="">Categoria 8</a></li>
-                    </ul>
-                  </div>
-                  <div id="menu-9" class="megamenu__dropdown-content">
-                    <ul class="">
-                      <li><a href="">Categoria 9</a></li>
-                      <li><a href="">Categoria 9</a></li>
-                      <li><a href="">Categoria 9</a></li>
-                      <li><a href="">Categoria 9</a></li>
-                      <li><a href="">Categoria 9</a></li>
-                      <li><a href="">Categoria 9</a></li>
-                      <li><a href="">Categoria 9</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 9</a></li>
-                      <li><a href="">Categoria 9</a></li>
-                      <li><a href="">Categoria 9</a></li>
-                      <li><a href="">Categoria 9</a></li>
-                      <li><a href="">Categoria 9</a></li>
-                      <li><a href="">Categoria 9</a></li>
-                      <li><a href="">Categoria 9</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 9</a></li>
-                      <li><a href="">Categoria 9</a></li>
-                      <li><a href="">Categoria 9</a></li>
-                      <li><a href="">Categoria 9</a></li>
-                      <li><a href="">Categoria 9</a></li>
-                      <li><a href="">Categoria 9</a></li>
-                      <li><a href="">Categoria 9</a></li>
-                    </ul>
-                  </div>
-                  <div id="menu-10" class="megamenu__dropdown-content">
-                    <ul class="">
-                      <li><a href="">Categoria 10</a></li>
-                      <li><a href="">Categoria 10</a></li>
-                      <li><a href="">Categoria 10</a></li>
-                      <li><a href="">Categoria 10</a></li>
-                      <li><a href="">Categoria 10</a></li>
-                      <li><a href="">Categoria 10</a></li>
-                      <li><a href="">Categoria 10</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 10</a></li>
-                      <li><a href="">Categoria 10</a></li>
-                      <li><a href="">Categoria 10</a></li>
-                      <li><a href="">Categoria 10</a></li>
-                      <li><a href="">Categoria 10</a></li>
-                      <li><a href="">Categoria 10</a></li>
-                      <li><a href="">Categoria 10</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 10</a></li>
-                      <li><a href="">Categoria 10</a></li>
-                      <li><a href="">Categoria 10</a></li>
-                      <li><a href="">Categoria 10</a></li>
-                      <li><a href="">Categoria 10</a></li>
-                      <li><a href="">Categoria 10</a></li>
-                      <li><a href="">Categoria 10</a></li>
-                    </ul>
-                  </div>
-                  <div id="menu-11" class="megamenu__dropdown-content">
-                    <ul class="">
-                      <li><a href="">Categoria 11</a></li>
-                      <li><a href="">Categoria 11</a></li>
-                      <li><a href="">Categoria 11</a></li>
-                      <li><a href="">Categoria 11</a></li>
-                      <li><a href="">Categoria 11</a></li>
-                      <li><a href="">Categoria 11</a></li>
-                      <li><a href="">Categoria 11</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 11</a></li>
-                      <li><a href="">Categoria 11</a></li>
-                      <li><a href="">Categoria 11</a></li>
-                      <li><a href="">Categoria 11</a></li>
-                      <li><a href="">Categoria 11</a></li>
-                      <li><a href="">Categoria 11</a></li>
-                      <li><a href="">Categoria 11</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 11</a></li>
-                      <li><a href="">Categoria 11</a></li>
-                      <li><a href="">Categoria 11</a></li>
-                      <li><a href="">Categoria 11</a></li>
-                      <li><a href="">Categoria 11</a></li>
-                      <li><a href="">Categoria 11</a></li>
-                      <li><a href="">Categoria 11</a></li>
-                    </ul>
-                  </div>
-                  <div id="menu-12" class="megamenu__dropdown-content">
-                    <ul class="">
-                      <li><a href="">Categoria 12</a></li>
-                      <li><a href="">Categoria 12</a></li>
-                      <li><a href="">Categoria 12</a></li>
-                      <li><a href="">Categoria 12</a></li>
-                      <li><a href="">Categoria 12</a></li>
-                      <li><a href="">Categoria 12</a></li>
-                      <li><a href="">Categoria 12</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 12</a></li>
-                      <li><a href="">Categoria 12</a></li>
-                      <li><a href="">Categoria 12</a></li>
-                      <li><a href="">Categoria 12</a></li>
-                      <li><a href="">Categoria 12</a></li>
-                      <li><a href="">Categoria 12</a></li>
-                      <li><a href="">Categoria 12</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 12</a></li>
-                      <li><a href="">Categoria 12</a></li>
-                      <li><a href="">Categoria 12</a></li>
-                      <li><a href="">Categoria 12</a></li>
-                      <li><a href="">Categoria 12</a></li>
-                      <li><a href="">Categoria 12</a></li>
-                      <li><a href="">Categoria 12</a></li>
-                    </ul>
-                  </div>
-                  <div id="menu-13" class="megamenu__dropdown-content">
-                    <ul class="">
-                      <li><a href="">Categoria 13</a></li>
-                      <li><a href="">Categoria 13</a></li>
-                      <li><a href="">Categoria 13</a></li>
-                      <li><a href="">Categoria 13</a></li>
-                      <li><a href="">Categoria 13</a></li>
-                      <li><a href="">Categoria 13</a></li>
-                      <li><a href="">Categoria 13</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 13</a></li>
-                      <li><a href="">Categoria 13</a></li>
-                      <li><a href="">Categoria 13</a></li>
-                      <li><a href="">Categoria 13</a></li>
-                      <li><a href="">Categoria 13</a></li>
-                      <li><a href="">Categoria 13</a></li>
-                      <li><a href="">Categoria 13</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 13</a></li>
-                      <li><a href="">Categoria 13</a></li>
-                      <li><a href="">Categoria 13</a></li>
-                      <li><a href="">Categoria 13</a></li>
-                      <li><a href="">Categoria 13</a></li>
-                      <li><a href="">Categoria 13</a></li>
-                      <li><a href="">Categoria 13</a></li>
-                    </ul>
-                  </div>
-                  <div id="menu-14" class="megamenu__dropdown-content">
-                    <ul class="">
-                      <li><a href="">Categoria 14</a></li>
-                      <li><a href="">Categoria 14</a></li>
-                      <li><a href="">Categoria 14</a></li>
-                      <li><a href="">Categoria 14</a></li>
-                      <li><a href="">Categoria 14</a></li>
-                      <li><a href="">Categoria 14</a></li>
-                      <li><a href="">Categoria 14</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 14</a></li>
-                      <li><a href="">Categoria 14</a></li>
-                      <li><a href="">Categoria 14</a></li>
-                      <li><a href="">Categoria 14</a></li>
-                      <li><a href="">Categoria 14</a></li>
-                      <li><a href="">Categoria 14</a></li>
-                      <li><a href="">Categoria 14</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 14</a></li>
-                      <li><a href="">Categoria 14</a></li>
-                      <li><a href="">Categoria 14</a></li>
-                      <li><a href="">Categoria 14</a></li>
-                      <li><a href="">Categoria 14</a></li>
-                      <li><a href="">Categoria 14</a></li>
-                      <li><a href="">Categoria 14</a></li>
-                    </ul>
-                  </div>
-                  <div id="menu-15" class="megamenu__dropdown-content">
-                    <ul class="">
-                      <li><a href="">Categoria 15</a></li>
-                      <li><a href="">Categoria 15</a></li>
-                      <li><a href="">Categoria 15</a></li>
-                      <li><a href="">Categoria 15</a></li>
-                      <li><a href="">Categoria 15</a></li>
-                      <li><a href="">Categoria 15</a></li>
-                      <li><a href="">Categoria 15</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 15</a></li>
-                      <li><a href="">Categoria 15</a></li>
-                      <li><a href="">Categoria 15</a></li>
-                      <li><a href="">Categoria 15</a></li>
-                      <li><a href="">Categoria 15</a></li>
-                      <li><a href="">Categoria 15</a></li>
-                      <li><a href="">Categoria 15</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria 15</a></li>
-                      <li><a href="">Categoria 15</a></li>
-                      <li><a href="">Categoria 15</a></li>
-                      <li><a href="">Categoria 15</a></li>
-                      <li><a href="">Categoria 15</a></li>
-                      <li><a href="">Categoria 15</a></li>
-                      <li><a href="">Categoria 15</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="flex-1">
-                  <div class="megamenu__featured-product">
-                    <p>Confira os produtos que acabaram de chegar</p>
-                    <button>Ver todos</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li id="menu-item__categorias" class="menu-item main-menu__item">
-            <a>Departamento</a>
-            <div class="megamenu full-width">
-              <div class="megamenu__col-right">
-                <div class="col col-6">
-                  <p class="megamenu__title">Departamento</p>
-                  <div id="menu-1" class="megamenu__dropdown-content active">
-                    <ul class="">
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="flex-1">
-                  <div class="megamenu__featured-product">
-                    <p>Confira os produtos que acabaram de chegar</p>
-                    <button>Ver todos</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li id="menu-item__categorias" class="menu-item main-menu__item">
-            <a>Departamento</a>
-            <div class="megamenu full-width">
-              <div class="megamenu__col-right">
-                <div class="col col-6">
-                  <p class="megamenu__title">Departamento</p>
-                  <div id="menu-1" class="megamenu__dropdown-content active">
-                    <ul class="">
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="flex-1">
-                  <div class="megamenu__featured-product">
-                    <p>Confira os produtos que acabaram de chegar</p>
-                    <button>Ver todos</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li id="menu-item__categorias" class="menu-item main-menu__item">
-            <a>Departamento</a>
-            <div class="megamenu full-width">
-              <div class="megamenu__col-right">
-                <div class="col col-6">
-                  <p class="megamenu__title">Departamento</p>
-                  <div id="menu-1" class="megamenu__dropdown-content active">
-                    <ul class="">
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="flex-1">
-                  <div class="megamenu__featured-product">
-                    <p>Confira os produtos que acabaram de chegar</p>
-                    <button>Ver todos</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li id="menu-item__categorias" class="menu-item main-menu__item">
-            <a>Departamento</a>
-            <div class="megamenu full-width">
-              <div class="megamenu__col-right">
-                <div class="col col-6">
-                  <p class="megamenu__title">Departamento</p>
-                  <div id="menu-1" class="megamenu__dropdown-content active">
-                    <ul class="">
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="flex-1">
-                  <div class="megamenu__featured-product">
-                    <p>Confira os produtos que acabaram de chegar</p>
-                    <button>Ver todos</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li id="menu-item__categorias" class="menu-item main-menu__item">
-            <a>Departamento</a>
-            <div class="megamenu full-width">
-              <div class="megamenu__col-right">
-                <div class="col col-6">
-                  <p class="megamenu__title">Departamento</p>
-                  <div id="menu-1" class="megamenu__dropdown-content active">
-                    <ul class="">
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="flex-1">
-                  <div class="megamenu__featured-product">
-                    <p>Confira os produtos que acabaram de chegar</p>
-                    <button>Ver todos</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li id="menu-item__categorias" class="menu-item main-menu__item">
-            <a>Departamento</a>
-            <div class="megamenu full-width">
-              <div class="megamenu__col-right">
-                <div class="col col-6">
-                  <p class="megamenu__title">Departamento</p>
-                  <div id="menu-1" class="megamenu__dropdown-content active">
-                    <ul class="">
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="flex-1">
-                  <div class="megamenu__featured-product">
-                    <p>Confira os produtos que acabaram de chegar</p>
-                    <button>Ver todos</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li id="menu-item__categorias" class="menu-item main-menu__item">
-            <a>Departamento</a>
-            <div class="megamenu full-width">
-              <div class="megamenu__col-right">
-                <div class="col col-6">
-                  <p class="megamenu__title">Departamento</p>
-                  <div id="menu-1" class="megamenu__dropdown-content active">
-                    <ul class="">
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="flex-1">
-                  <div class="megamenu__featured-product">
-                    <p>Confira os produtos que acabaram de chegar</p>
-                    <button>Ver todos</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li id="menu-item__categorias" class="menu-item main-menu__item">
-            <a>Departamento</a>
-            <div class="megamenu full-width">
-              <div class="megamenu__col-right">
-                <div class="col col-6">
-                  <p class="megamenu__title">Departamento</p>
-                  <div id="menu-1" class="megamenu__dropdown-content active">
-                    <ul class="">
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                      <li><a href="">Categoria</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="flex-1">
-                  <div class="megamenu__featured-product">
-                    <p>Confira os produtos que acabaram de chegar</p>
-                    <button>Ver todos</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
+    </header>
+  </div>
   <section class="banner">
     <div class="container">
       <div class="row row-mobile">
@@ -1218,6 +1219,9 @@
       </div>
     </div>
   </footer>
+  <div id="back-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </div>
 
   <script type="module" src="script.js"></script>
   <script src="https://kit.fontawesome.com/08da4ec101.js"></script>

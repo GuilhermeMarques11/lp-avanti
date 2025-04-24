@@ -1,3 +1,12 @@
+/* Header Sticky */
+#header-sticky {
+  width: 100%;
+  background: var(--secondary-color);
+  position: fixed;
+  top: 0;
+  z-index: 900;
+}
+
 /* top bar */
 .top-bar {
   text-align: center;
@@ -13,7 +22,7 @@
   display: flex;
   flex-direction: column;
   row-gap: 40px;
-  padding: 2rem 1rem;
+  padding: 1rem;
 }
 
 .header-top--column-left {
