@@ -1,14 +1,14 @@
 // Megamenu
 const megaMenu = document.querySelectorAll('.megamenu');
-const megaMeneuDropDown = document.querySelectorAll('.megamenu__dropdown');
+const megaMenuDropDown = document.querySelectorAll('.megamenu__dropdown');
 const megaMeneuDropDownContent = document.querySelectorAll(
   '.megamenu__has-dropdown .megamenu__dropdown-content',
 );
 const menuItems = document.querySelectorAll('.main-menu__item');
 
-megaMeneuDropDown.forEach((dropdown) => {
+megaMenuDropDown.forEach((dropdown) => {
   dropdown.addEventListener('mouseenter', function () {
-    megaMeneuDropDown.forEach((item) => {
+    megaMenuDropDown.forEach((item) => {
       item.classList.remove('active');
     });
 
@@ -33,13 +33,13 @@ megaMenu.forEach((megaMenu) => {
 
 megaMenu.forEach((megaMenu) => {
   megaMenu.addEventListener('mouseleave', function () {
-    megaMeneuDropDown.forEach((item) => {
+    megaMenuDropDown.forEach((item) => {
       item.classList.remove('active');
     });
     megaMeneuDropDownContent.forEach((content) => {
       content.classList.remove('active');
     });
-    megaMeneuDropDown[0].classList.add('active');
+    megaMenuDropDown[0].classList.add('active');
     megaMeneuDropDownContent[0].classList.add('active');
     this.closest('.main-menu__item').classList.remove('active');
   });
