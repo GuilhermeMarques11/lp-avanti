@@ -33,10 +33,10 @@
 .megamenu {
   display: none;
   position: absolute;
-  top: 20px;
+  top: 15px;
   left: 0;
   z-index: 2;
-  padding-top: 33px;
+  padding-top: 20px;
   background: var(--secondary-color);
   opacity: 0;
   gap: 20px;
@@ -53,7 +53,7 @@
 @keyframes megamenu {
   from {
     opacity: 0;
-    transform: translateY(-10px);
+    transform: translateY(10px);
   }
   to {
     opacity: 1;
